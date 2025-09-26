@@ -1,0 +1,9 @@
+{
+  "graphs": {
+    "default": "src.agents.orchestrator.agent:app"
+  },
+  "dependencies": [
+    "src.tools.news_fetcher:news_search_tool",
+    "src.agents.clinical_protocols_agent.agent:clinical_protocol_agent"
+  ]
+}

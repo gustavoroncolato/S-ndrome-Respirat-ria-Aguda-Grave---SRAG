@@ -1,0 +1,4 @@
+[tool.langserve]
+# Aponta para o local do nosso grafo LangGraph compilado.
+# O formato é 'caminho.para.o.arquivo:nome_do_objeto_grafo'
+graph = "src.agents.orchestrator.agent:app"
