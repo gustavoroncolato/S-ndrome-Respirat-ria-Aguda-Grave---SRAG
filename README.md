@@ -128,4 +128,6 @@ Onde Fazer Alterações
 Para adicionar novas colunas do CSV: Altere src/config.py na seção relevant_features.
 Para adicionar novas métricas: Altere src/metrics_calculator.py adicionando um novo método de cálculo, e depois chame este método no calculate_metrics_node em src/agents/orchestrator/agent.py.
 Para mudar o texto do relatório: Altere o final_report_prompt no arquivo src/agents/orchestrator/prompts.py.
+
+![Diagrama da Arquitetura da Solução](images/diagrama_arquitetura.png)
 ```
