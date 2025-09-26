@@ -50,8 +50,8 @@ Siga estes passos detalhados para configurar e executar o projeto em sua máquin
 ### 2. Clonando o Repositório
 
 ```bash
-git clone <URL_DO_SEU_REPOSITORIO>
-cd <NOME_DA_PASTA_DO_PROJETO>
+git clone https://github.com/gustavoroncolato/S-ndrome-Respirat-ria-Aguda-Grave---SRAG.git
+cd Indicium - POC
 3. Configurando o Ambiente Virtual
 É crucial usar um ambiente virtual para isolar as dependências do projeto.
 
@@ -83,17 +83,8 @@ GOOGLE_API_KEY="AIza..."
 # Chave para o LLM rápido da Groq ([https://console.groq.com/](https://console.groq.com/))
 GROQ_API_KEY="gsk_..."
 
-6. (Opcional) Configurando o Fallback Local com Ollama
-Para garantir que o agente sempre funcione, mesmo que as APIs da nuvem falhem, configure o Ollama:
 
-Bash
-
-# Este comando irá baixar o modelo Llama 3 8B e o deixará pronto para uso
-ollama run llama3:8b-instruct-q4_K_M
-Como Usar o Projeto
-Existem duas maneiras principais de interagir com o projeto:
-
-1. Processamento dos Dados (ETL)
+Processamento dos Dados (ETL)
 Sempre que o arquivo de dados brutos (data/raw/OpenSUS.csv) for atualizado, você precisa executar o pipeline de processamento para gerar a versão limpa dos dados.
 
 Bash
